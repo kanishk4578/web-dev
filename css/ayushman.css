@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.nav {
+    background-color: #410088;
+    width: 113%;
+    height: 37px;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 3px;
+    padding-left: 30px;
+    display: flex;
+    padding-top: 10px;
+}
+
+.i {
+    color: white;
+    border: 2px solid #fcac28;
+    width: 28px;
+    height: 28px;
+    padding-left: 3px;
+    text-decoration: none;
+    padding-top: 4px;
+    box-sizing: border-box;
+
+}
+.b{
+    background-color: #9239a1;
+    width: 100%;
+    height: 110px;
+    display: flex                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ;
+}
+.c{
+    background-color: #f9b022;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+    padding-top: 5px;
+    
+    }
+.d{
+    background: url(../image/slider3.jpg);
+    width: 100%;
+    height: 300px;
+   
+}
+.e{
+    background-color: #4d4090;
+    width: 100%;
+    height: 45px;
+    color: white;
+    padding: 8px 0px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+.c a{
+    color: white;
+    text-decoration: none;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.c a:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.f{
+    width: 350px;
+    border: 2px solid #c2d9de;
+    background-color: #f3f8f9;
+    float: left;
+    height: 100px;
+}
+.g{
+    font-size: 10px;
+    margin-left: 126px;
+    margin-top: -78px;
+}
+.btn{
+    margin-left: 102px;
+    margin-top: 27px;
+    width: 120px;
+    height: 42px;
+    color: white;
+    background-color: #4d4090;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fcac28;
+}
+.o{
+    width: 620px;
+    margin-left: 570px;
+    margin-top: 330px;
+    height: 540px;
+}
+.o1{
+    width: 350px;
+    height: 400px;
+    border: none;
+    margin-left: -564px;
+    background-color: #f5f5dc;
+    float: left;
+    margin-top: 50px;
+    border-bottom: 2px solid steelblue;
+    margin-bottom: 100px;
+}
+.o2{
+    width: 360%;
+    height: 300px;
+    border: 2px solid black;
+    margin-top: 360px;
+    margin-left: -35px;
+    background: linear-gradient(90deg,#7281a4, #2d4a79);
+}
+.btn1{
+    margin-left: 1060px;
+    width: 150px;
+    height: 55px;
+    background-color: #eeb712;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #410088;
+}
+.w{
+    margin-top: 35px;
+    margin-left: 35px;
+    font-size: 30px;
+    font-family: monospace;
+}
+.n{
+    width: 50px;
+    margin-top: 72px;
+    border: 1px solid #d9f2ff;
+    background: #33537b;
+    padding: 8px;
+    box-shadow: 10px -1px 0px 0px #d9f2ff;
+}
+.o3{
+    margin-left: 148px;
+    margin-top: -37px;
+    width: 292%;
+    font-size: 16px;
+    line-height: 23px;
+    font-family: sans-serif;
+    letter-spacing: 0px;
+}
+.o4{
+    width: 1270px;
+    height: 320px;
+    border: 2px;
+    margin-left: -38px;
+    background-color: #f3f4ff;
+    margin-top: 75px;
+    margin-bottom: 30px;
+}
+.o5{
+    width: 1266px;
+    height: 110px;
+    margin-left: -37px;
+    border: 2px;
+    margin-top: -30px;
+    padding-top: 30px;
+}
+.o6{
+    width: 400px;
+    height: 400px;
+    margin-left: 12px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    float: left;
+    
+}
+.foot{
+    width: 365%;
+    height: 520px;
+    background-color: #32363a;
+    margin-left: -37px;
+}
+.map{
+    width: 350px;
+    height: 200px;
+    margin-top: 125px;
+    margin-left: -200px;
+    border: 20px solid white;
+}
+.li{
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    list-style-type: disclosure-closed;
+}
+.o7{
+    width: 1280px;
+    height: 45px;
+    background-color: #3b4044;
+    margin-left: -36px;
+}
+.p3{
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+.p3:hover{
+    color: #4d4090;
+}

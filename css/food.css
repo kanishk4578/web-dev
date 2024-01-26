@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: gray;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px;
+    position: fixed;
+    top: 0;
+
+}
+.menu a{/*menu a means menu mein anchor tag ke liye*/
+    text-decoration: none;
+    color: #ff2b85;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    padding: 0 10px;
+}
+.banner{
+    background: url(../image/food.html);
+    width: 100%;
+    height: 500px;
+    margin-top: 85px;
+
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 130px;
+}
+.new{
+    background: linear-gradient(to right,yellow,black,green);
+    width: 100%;
+    height: 50px;
+
+
+}
+.new marquee{
+    color: white;
+    font-size: 25px;
+    /*line-height: 52px*/
+    padding-top: 13px;
+
+}
+.about{
+    padding: 150px 200px;
+    text-align: center;
+}
+.about h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-bottom: 10px;
+    text-shadow: 3px 4px 4px  #ff2b85 ;
+}
+.about p{
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-family: cursive;
+    line-height: 27px;
+    margin-bottom: 15px;
+}  
+.about button{
+    width: 200px;
+    height: 44px;
+    background: linear-gradient(45deg,  #ff2b85,black);
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+    .about button:hover{
+        background: linear-gradient(90deg, red,yellow);
+    }
+    .press{
+        background: url(../image/amul-taaza-homogenised-toned-milk-1-l-tetra-pak-product-images-o490010311-p490010311-0-202203152257.webp);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        padding: 150px 200px;
+        background-attachment: fixed;
+    }
+    .team{
+        background: url(../image/nutri-binge-500g-premium-california-almonds-product-images-orvjozwkgi6-p601143881-0-202310111714.webp);
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;
+        padding: 150px 200px;
+        background-attachment: fixed;
+    }
+    .contact{
+        background: #ff2b85;
+        width: 100%;
+        height: 400px;
+    }
+    .footer{
+        background: black;
+        color: white;
+        text-align: center;
+    }
+    .input{
+        width: 600px;
+        height: 41px;
+        border: none;
+        outline: none;
+        background: black;
+        box-shadow: -1px 3px 8px #c3c3c3;
+        font-size: 16px;
+        padding-left: 14px;
+        border-radius: 7px;
+        color: white;
+    }
+    ::placeholder{
+        color: white;
+        font-family: cursive;
+    }
+.press h2{
+    text-align: center;
+    color: black;
+    text-shadow: 3px 3px 3px #ff2b85;
+    font-size: 46px;
+    font-family: cursive;
+}
+.press p{
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    font-style: oblique;
+    font-family: cursive;
+    line-height: 2;
+}
+.press button{
+    width: 200px;
+    height: 44px;
+    margin-left: 358px;
+    background: linear-gradient(45deg, black, #ff2b85);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.press button:hover{
+    background: linear-gradient(90deg, red,yellow);
+    }
+    .team h2{
+        text-align: center;
+        color: black;
+        text-shadow: 3px 3px 3px #ff2b85;
+        font-size: 46px;
+        font-family: cursive;
+    }
+    .team p{
+        letter-spacing: 3px;
+        word-spacing: 2px;
+        font-style: oblique;
+        font-family: cursive;
+        line-height: 2;
+    }
+    .team button{
+        width: 200px;
+        height: 44px;
+        margin-left: 358px;
+        background: linear-gradient(45deg, black, #ff2b85);
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .team button:hover{
+        background: linear-gradient(90deg, red,yellow);
+        }
+        .contact h2{
+            text-align: center;
+            color: black;
+            text-shadow: 3px 3px 3px black;
+            font-size: 46px;
+            font-family: cursive;
+        }
+        .contact p{
+            letter-spacing: 3px;
+            word-spacing: 2px;
+            font-style: oblique;
+            font-family: cursive;
+            line-height: 2;
+        }
+        .contact button{
+            width: 200px;
+            height: 44px;
+            margin-left: 538px;
+            background: linear-gradient(45deg, black, #ff2b85);
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .contact button:hover{
+            background: linear-gradient(90deg, red,yellow);
+            }footer{
+                padding: 40px 120px;
+                background-color: rgb(red, green, blue);
+            }
+            .first{
+                display: flex;
+                justify-content: space-between;
+            }
+            .first-1{
+                display: flex;
+            }
+            .first-1 span{
+                padding: 10px;
+                border: 1px solid black;
+                border-radius: 5px;
+                margin-right: 20px;
+                font-weight: 400;
+            }
+            .second{
+                display:flex;
+                justify-content: space-around;
+                margin: 30px 0px;
+            }
+            .second div{
+                width: 200px;
+            }
+            .second h4{
+                font-weight: lighter;
+                color: rgb(red, green, blue);
+    
+            }
+            .second a{
+                display: inline-block;
+                width: 200px;
+                margin-bottom: 7px;
+                white-space: nowrap;
+                text-decoration: none;
+                color: gray;
+                font-size: 0.9rem;
+    
+            }
+            .second img{
+                width: 137px;
+                height: 40px;
+                margin-top: 11px;
+                cursor: pointer;
+            }
+            .box-4{
+                display: flex;
+                flex-direction: column;
+            }
+            .box-4 i{
+                margin-left: 5px;
+                margin-bottom: 5px;
+            }
+            .third{
+                padding: 10px 0px ;
+                color: gray;
+                font-size: 0.7rem;
+            }
+
+        
+    

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            border: 10px solid;
+            width: 700px;
+            height: 400px;
+        }
+        p::after{
+            content: 'MITS';
+            background-color: red;
+            display: block;
+            font-size: 60px;
+        }
+        p::before{
+            content: 'PN 123456u8';
+            background-color: red;
+            display: block;
+            font-size: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo before and after</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, vitae quo adipisci quasi ad nam. Optio suscipit
+        eum error blanditiis nisi illum quaerat deleniti, neque quidem. Quaerat quae veniam vel.</p>
+
+</body>
+
+</html>
